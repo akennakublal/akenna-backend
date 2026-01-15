@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_components_gradients",
+  "info": {
+    "displayName": "gradient",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "startColor": {
+      "type": "enumeration",
+      "enum": [
+        "primaryBrown",
+        "secondaryBrown",
+        "primaryNude",
+        "lightNude",
+        "lighterNude"
+      ]
+    },
+    "endColor": {
+      "type": "enumeration",
+      "enum": [
+        "primaryBrown",
+        "secondaryBrown",
+        "primaryNude",
+        "lightNude",
+        "lighterNude"
+      ]
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "to right",
+        "to left",
+        "to bottom",
+        "to top"
+      ]
+    }
+  },
+  "config": {}
+}

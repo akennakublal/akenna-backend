@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_components_text_sections",
+  "info": {
+    "displayName": "textSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "primaryBrown",
+        "secondaryBrown",
+        "primaryNude",
+        "lightNude",
+        "lighterNude",
+        "black",
+        "white"
+      ]
+    },
+    "textLocation": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "imageDirection": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "gradient": {
+      "type": "component",
+      "component": "components.gradient",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

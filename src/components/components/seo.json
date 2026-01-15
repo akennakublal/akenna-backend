@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "metaCanonicalUrl": {
+      "type": "string"
+    },
+    "metaKeywords": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

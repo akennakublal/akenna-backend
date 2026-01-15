@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "eventDate": {
+      "type": "datetime"
+    },
+    "location": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "components.button",
+      "repeatable": false
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

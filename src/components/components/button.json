@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "primaryBrown",
+        "secondaryBrown",
+        "primaryNude",
+        "lightNude",
+        "lighterNude",
+        "black",
+        "white",
+        "transparent"
+      ]
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "primaryBrown",
+        "secondaryBrown",
+        "primaryNude",
+        "lightNude",
+        "lighterNude",
+        "black",
+        "white"
+      ]
+    }
+  },
+  "config": {}
+}
