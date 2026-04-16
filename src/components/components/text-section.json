@@ -57,6 +57,18 @@
       "type": "component",
       "component": "components.gradient",
       "repeatable": false
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "primaryBrown",
+        "secondaryBrown",
+        "primaryNude",
+        "lightNude",
+        "lighterNude",
+        "black",
+        "white"
+      ]
     }
   },
   "config": {}

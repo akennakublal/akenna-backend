@@ -115,6 +115,17 @@ export interface ComponentsTextSection extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
+    backgroundColor: Schema.Attribute.Enumeration<
+      [
+        'primaryBrown',
+        'secondaryBrown',
+        'primaryNude',
+        'lightNude',
+        'lighterNude',
+        'black',
+        'white',
+      ]
+    >;
     cta: Schema.Attribute.Component<'components.button', false>;
     description: Schema.Attribute.RichText;
     gradient: Schema.Attribute.Component<'components.gradient', false>;
