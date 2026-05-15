@@ -5,7 +5,11 @@ export default [
   {
     name: "strapi::cors",
     config: {
-      origin: ["https://akennacyrus.netlify.app", "https://akennacyrus.com"],
+      origin: [
+        "https://akennacyrus.netlify.app",
+        "https://akennacyrus.com",
+        "https://www.akennacyrus.com",
+      ],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
       headers: ["Content-Type", "Authorization", "Origin", "Accept"],
       keepHeaderOnError: true,
